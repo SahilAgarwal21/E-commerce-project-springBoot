@@ -58,9 +58,9 @@ public class Cart {
 //        return userProducts;
 //    }
 
-//    public void setProducts(List<Product> products) {
-//        this.products = products;
-//    }
+   public void setProducts(List<Product> products) {
+       this.products = products;
+   }
 
 //    public void addProduct(Product product) {
 //        products.add(product);
