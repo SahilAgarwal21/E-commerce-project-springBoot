@@ -16,6 +16,8 @@ public class Cart {
     @JoinColumn(name="customer_id")
     private User customer;
 
+    private String products;
+
 //    @ManyToMany
 //    @JoinTable(
 //            joinColumns = @JoinColumn(name = "cart_id"),
@@ -59,7 +61,7 @@ public class Cart {
 //    }
 
    public void setProducts(List<Product> products) {
-       this.products = "test1";
+       this.products = "test2";
    }
 
 //    public void addProduct(Product product) {
