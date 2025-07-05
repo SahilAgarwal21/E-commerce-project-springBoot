@@ -59,7 +59,7 @@ public class Cart {
 //    }
 
    public void setProducts(List<Product> products) {
-       this.products = "test";
+       this.products = "test1";
    }
 
 //    public void addProduct(Product product) {
